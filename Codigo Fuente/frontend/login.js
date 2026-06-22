@@ -5,5 +5,7 @@ function login(email, password) {
 
   return "Inicio de sesión exitoso";
 }
-
+function validarUsuario(){
+   return true;
+}
 console.log(login("usuario@logitrack.com", "123456"));
